@@ -1,0 +1,275 @@
+@charset "utf-8";
+
+.footer {
+  padding-top: 100px;
+  background-color: #f4f4f4;
+  box-sizing: border-box;
+}
+
+.footer_content {
+  height: 100%;
+  background-color: #ccc;
+}
+
+.footer_logo {
+  height: 42px;
+  margin-bottom: 30px;
+}
+
+.footer_logo>ul>li {
+  float: left;
+  width: 297px;
+  height: 42px;
+  padding: 0 36px;
+  box-sizing: border-box;
+  font-size: 0;
+  line-height: 42px;
+}
+
+.footer_logo>ul>li>span {
+  display: inline-block;
+  width: 36px;
+  height: 42px;
+  background: url(../images/footer_logo.png) no-repeat;
+}
+
+.footer_logo>ul>li>span.duo {
+  background-position: 0 -192px;
+}
+
+.footer_logo>ul>li>span.kuai {
+  background-position: -41px -192px;
+}
+
+.footer_logo>ul>li>span.hao {
+  background-position: -82px -192px;
+}
+
+.footer_logo>ul>li>span.sheng {
+  background-position: -123px -192px;
+}
+
+.footer_logo>ul>li>p {
+  display: inline-block;
+  font-size: 18px;
+  height: 42px;
+  vertical-align: top;
+  color: #444;
+  font-weight: 700;
+  margin-left: 9px;
+}
+
+.footer_menu_container {
+  padding: 20px 0;
+  box-sizing: border-box;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+}
+
+.footer_menu {
+  width: 198px;
+  float: left;
+}
+
+.footer_menu>ul>li>h6 {
+  font-size: 14px;
+  margin-bottom: 5px;
+  line-height: 22px;
+  color: #666;
+}
+
+.footer_menu>ul>li>a {
+  line-height: 22px;
+  color: #666;
+}
+
+.footer_menu>ul>li>a:hover {
+  color: #c81623;
+}
+
+.footer_menu_cover {
+  width: 200px;
+  float: left;
+}
+
+.footer_menu_cover>h6 {
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #666;
+}
+
+.footer_menu_cover>p {
+  padding: 0 10px;
+  box-sizing: border-box;
+  color: #666;
+}
+
+.footer_menu_cover>a {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  color: #666;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.footer_menu_cover>a>i {
+  margin-left: -4px;
+  font-weight: 700;
+}
+
+.footer_menu_cover>a:hover {
+  color: #c81623;
+}
+
+.footer_about {
+  margin-top: 15px;
+}
+
+.footer_about>p {
+  font-size: 0;
+  text-align: center;
+}
+
+.footer_about>p>a {
+  display: inline-block;
+  color: #666;
+  font-size: 12px;
+}
+
+.footer_about>p>span {
+  display: inline-block;
+  color: #ccc;
+  margin: 0 10px;
+  font-size: 12px;
+}
+
+.footer_about>p>a:hover {
+  color: #c81623;
+}
+
+.footer_copy {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.footer_copy > p {
+  font-size: 0
+}
+
+.footer_copy > p>a,.footer_copy>p>i {
+  font-size: 12px;
+  color: #999;
+  display: inline-block;
+  line-height: 22px;
+  font-style: normal;
+}
+
+.footer_copy > p>span {
+  display: inline-block;
+  color: #ccc;
+  margin: 0 10px;
+  font-size: 12px;
+}
+
+.footer_copy > p>a:hover {
+  color: #c81623;
+}
+
+.footer_nation {
+  font-size: 0;
+  line-height: 22px;
+  height: 22px;
+}
+
+.footer_nation>span {
+  color: #ccc;
+  margin: 0 10px;
+  font-size: 12px;
+}
+
+.footer_nation>a>span {
+  display: inline-block;
+  width: 15px;
+  height: 12px;
+  margin-right: 10px;
+  vertical-align: -2px;
+}
+
+.footer_nation>a>p {
+  display: inline-block;
+  font-size: 12px;
+  color: #999;
+}
+
+.footer_nation>a:hover>p {
+  color: #c81623;
+}
+
+.footer_jd {
+  font-size: 0;
+  line-height: 22px;
+  height: 22px;
+}
+
+.footer_jd>span {
+  color: #ccc;
+  margin: 0 10px;
+  font-size: 12px;
+}
+
+.footer_jd>a {
+  color: #999;
+  font-size: 12px;
+}
+
+.footer_jd>i {
+  color: #999;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.footer_jd>a:hover {
+  color: #c81623;
+}
+
+.footer_auth {
+  padding: 25px 0 45px;
+  font-size: 0px;
+  text-align: center;
+}
+
+.footer_auth>a {
+  display: inline-block;
+  width: 103px;
+  height: 32px;
+  margin: 0 3px;
+  background: url(../images/footer_logo.png);
+}
+
+.footer_auth>a.auth1 {
+  background-position: -205px -111px;
+}
+
+.footer_auth>a.auth2 {
+  background-position: -205px -74px;
+}
+
+.footer_auth>a.auth3 {
+  background-position: -205px -37px;
+}
+
+.footer_auth>a.auth4 {
+  background: url(../images/footer_logo2.png);
+  background-position: 0 -66px;
+}
+
+.footer_auth>a.auth5 {
+  background-position: 0 -155px;
+}
+
+.footer_auth>a.auth6 {
+  background: url(../images/footer_logo2.png);
+  background-position: 0 -99px;
+}
